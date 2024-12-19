@@ -31,4 +31,3 @@ def view_investments():
     investments = session.query(Investment).all()  # Adjust this query as needed for your model
     return investments
 
-
